@@ -1,0 +1,4 @@
+baseURL = "https://www.tomshanley.co.nz/"
+languageCode = "en-us"
+title = "tomshanley.co.nz"
+theme = "hugo-theme-yuki"
