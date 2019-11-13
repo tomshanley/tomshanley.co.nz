@@ -1,13 +1,12 @@
-# Main config file for icon theme.
 baseURL = "https://www.tomshanley.co.nz/"
-languageCode = "en-nz"
-title = "Tom Shanley Data Visualisation + Business Analysis @ Christchurch NZ"
+languageCode = "en-us"
+title = "Tom Shanley Data Viz Christchurch NZ"
 theme = "hugo-icon"
 
 # Metadata
 [params]
   author = "Tom Shanley"
-  description = "Data visualisation consultant and business analyst - Christchurch, New Zealand"
+  description = "Cool description"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
@@ -17,16 +16,49 @@ theme = "hugo-icon"
 
 # Navigation section
 [params.nav]
-  mission = "Our Mission"
+  mission = "Hello!"
   services = "Services"
-  team = "About"
-  contact = "Get In Touch"
+  team = "About me"
+  # contact = "Get In Touch"
   # Include logo instead if HOME:
   # logo = "path/to/logo"
 
 # Mission section
 [params.mission]
-  enable = false
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/img_3.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_2.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_1.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_4.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "marketing"
+    title = "Marketing"
+    subtitle = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptate laborum sapiente officiis molestiaea."
+    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos aspernatur eius doloremque ad, eaque pariatur, repellendus illum, nostrum velit necessitatibus molestias.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "analysis"
+    title = "Resources"
+    subtitle = "Quam quasi illum expedita dicta nemo fugit reprehenderit similique! Corporis praesentium magnam sequi."
+    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul>"
+
+  [[params.mission.item]]
+    weight = 3
+    name = "strategy"
+    title = "Strategy"
+    subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
+    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul>"
 
 # Services section
 [params.services]
@@ -59,71 +91,72 @@ theme = "hugo-icon"
     icon = "icon-support"
     title = "Embed"
     description = "Often the data visualisations we produce need to be reused – monthly reports, presentation templates. I can work with your team to ensure that the pipeline from data, analysis, design and presentation is efficient and effective."
-    
-  [[params.services.item]]
-    icon = "icon-support"
-    title = "Business analysis"
-    description = "TO COMPLETE."
 
 # Work section
 [params.work]
   enable = true
-  title = "Previous work"
+  title = "Previous clients"
 
   [[params.work.item]]
-    title = "Department of Internal Affairs"
-    subtitle = "interactive network visualisation of government services, agencies and customer life events"
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
     img = "images/img_1.jpg"
 
   [[params.work.item]]
-    title = "Social Investment Agency"
-    subtitle = "design and development of print and online interactive visualisations"
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
     img = "images/img_2.jpg"
 
   [[params.work.item]]
-    title = "Ministry of Social Development"
-    subtitle = " design and development of monthly reporting dashboards"
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
     img = "images/img_3.jpg"
 
   [[params.work.item]]
-    title = "Ministry of Education"
-    subtitle = "design and development of data visualisations and infographics"
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
     img = "images/img_2.jpg"
 
   [[params.work.item]]
-    title = "LINZ"
-    subtitle = "real-time operational dashboard requirements"
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
     img = "images/img_3.jpg"
 
   [[params.work.item]]
-    title = "Superu"
-    subtitle = "consultancy and design of visualisations for research publications "
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
     img = "images/img_2.jpg"
 
   [[params.work.item]]
-    title = "Sankey Plugin"
-    subtitle = "development of a D3 plugin to visualisation circular directional networks"
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
     img = "images/img_3.jpg"
 
   [[params.work.item]]
-    title = "Redvespa"
-    subtitle = "design and implementation of business intelligence reporting"
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
     img = "images/img_4.jpg"
 
 # Team section
 [params.team]
-  enable = true
-  title = "Nice to meet you"
+  enable = false
+  title = "About me"
+  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
   [[params.team.item]]
-    description = "I live and work in Christchurch, New Zealand. Originally from the UK, I am a business analyst with a particular passion for presenting data and complex information. I have over 10 years experience working in IT and government, and enjoy the challenge of analysing and presenting the complex environments in which we work. I work with Redvespa - please contact them if you require business analysis services, or would like to see how I may help your business with visualising your data."
+    name = "Jean Doe"
+    position = "Chief legend"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
     img = "images/person1.jpg"
-    github = "https://www.github.com/tomshanley"
-    twitter = "https://www.twitter.com/tomshanleynz"
+    email = "#"
+    telephone = "#"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
     linkedin = "#"
-    pinterest = "https://nz.pinterest.com/tomshanley/data-visualisation/"
-
-
+    whatsapp = "#"
 
 
 # Contact section
@@ -138,7 +171,6 @@ theme = "hugo-icon"
   button_text = "Submit"
 
 # Footer section
-# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
 [params.footer]
   enable = true
   note = "<p><small>This website is built using Netlify and Hugo <br> The website uses the Free HTML5 Hugo Template &copy; 2016 All Rights Reserved <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> + Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
@@ -146,4 +178,10 @@ theme = "hugo-icon"
   twitter = "https://www.twitter.com/tomshanleynz"
   linkedin = "#"
   pinterest = "https://nz.pinterest.com/tomshanley/data-visualisation/"
-  
+
+
+
+
+
+
+
