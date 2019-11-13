@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tomshanley.co.nz</title>
+    <title>Tom Shanley Data Viz Christchurch NZ</title>
     <link>https://www.tomshanley.co.nz/</link>
-    <description>Recent content on tomshanley.co.nz</description>
+    <description>Recent content on Tom Shanley Data Viz Christchurch NZ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -11,13 +11,14 @@
     
     
     <item>
-      <title>tomshanley.co.nz</title>
+      <title>About</title>
       <link>https://www.tomshanley.co.nz/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.tomshanley.co.nz/about/</guid>
       <description>Tom Shanley is data visualisation consultant in Christchurch, New Zealand.
-I am on Twitter.</description>
+I currently work for Redvespa.
+You can find me on Twitter.</description>
     </item>
     
   </channel>
