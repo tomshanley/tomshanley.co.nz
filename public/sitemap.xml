@@ -3,7 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.tomshanley.co.nz/about/</loc>
+    <loc>https://www.tomshanley.co.nz/examples/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tomshanley.co.nz/examples/isometric-joyplot/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tomshanley.co.nz/examples/joyplot/</loc>
+    <priority>0</priority>
   </url>
   
   <url>

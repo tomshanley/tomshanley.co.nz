@@ -13,12 +13,13 @@ theme = "hugo-icon"
 [params.hero]
   img = "images/hero_bg.png"
   title = "I &hearts; data visualistion"
-  description = "Use your data to explore, understand and explain"
+  description = "My name is Tom Shanley. I can help you use your data to explore, understand and explain"
 
 # Navigation section
 [params.nav]
   mission = "Our Mission"
   services = "Services"
+  work = "Previous clients"
   team = "About"
   contact = "Get In Touch"
   # Include logo instead if HOME:
@@ -33,72 +34,89 @@ theme = "hugo-icon"
   enable = true
   video = false
   title = "What I can do for you"
-  # description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
   [[params.services.item]]
     icon = "icon-present"
     title = "Consult"
-    description = "I will work with you and your team to understand what you are trying to achieve, your data sources and analysis, so that we can design and build the best data visualisations for your context."
+    description = "Work with your team to understand your goals, data and analysis"
 
   [[params.services.item]]
     icon = "icon-eye"
     title = "Review"
-    description = "I can review your existing data visualisations (reports, presentations, web) and provide recommendations for potential improvements and enhancements."
+    description = "Review your existing data visualisations, recommend improvements and steps to achievin"
 
   [[params.services.item]]
     icon = "icon-pencil"
     title = "Design"
-    description = "I can work with the data tools and branding guidelines that are available to you, to develop the design specifications and solutions for review and implementation, by your designers or analysts, or by me. I work hard to make sure the designs allow your audiences to understand, explore and engage with your data."
+    description = "Design specifications and solutions specfic to your tools and branding guidelines"
 
   [[params.services.item]]
     icon = "icon-rocket"
     title = "Build"
-    description = "I can deliver final products where called upon for print, analytic tools and web. I can work with your applications of choice, such as D3.JS, R (including ggplot2), Tableau, Kumu and GIS tools, as well as the Adobe and Microsoft suites."
+    description = "Develop and deliver the final products for print, analytical tools and web"
 
-  [[params.services.item]]
+    [[params.services.item]]
     icon = "icon-support"
     title = "Embed"
-    description = "Often the data visualisations we produce need to be reused – monthly reports, presentation templates. I can work with your team to ensure that the pipeline from data, analysis, design and presentation is efficient and effective."
+    description = "Develop the ongoing processes for maintaining and reusing the visualisations, from data gathering through to presentation"
     
   [[params.services.item]]
     icon = "icon-support"
     title = "Business analysis"
-    description = "TO COMPLETE."
+    description = "Data visualisations to support your business analysis and project"
+
+  
+
+
+
+# Team section
+[params.team]
+  enable = true
+  title = "Nice to meet you"
+
+  [[params.team.item]]
+    description = "I live and work in Christchurch, New Zealand. Originally from the UK, I am a business analyst with a particular passion for presenting data and complex information. I have over 10 years experience working in IT and government, and enjoy the challenge of analysing and presenting the complex environments in which we work. I work with [Redvespa](https://www.redvespa.com) - please contact them if you require business analysis services, or would like to see how I may help your business with visualising your data."
+    img = "images/person1.jpg"
+    github = "https://www.github.com/tomshanley"
+    twitter = "https://www.twitter.com/tomshanleynz"
+    linkedin = "#"
+    pinterest = "https://nz.pinterest.com/tomshanley/data-visualisation/"
+
 
 # Work section
 [params.work]
   enable = true
-  title = "Previous work"
+  title = "Some of my previous clients"
 
   [[params.work.item]]
     title = "Department of Internal Affairs"
     subtitle = "interactive network visualisation of government services, agencies and customer life events"
-    img = "images/img_1.jpg"
+    img = "images/dia.jpg"
 
   [[params.work.item]]
     title = "Social Investment Agency"
     subtitle = "design and development of print and online interactive visualisations"
-    img = "images/img_2.jpg"
+    img = "images/sia.jpg"
 
   [[params.work.item]]
     title = "Ministry of Social Development"
     subtitle = " design and development of monthly reporting dashboards"
-    img = "images/img_3.jpg"
+    img = "images/msd.jpg"
 
   [[params.work.item]]
     title = "Ministry of Education"
     subtitle = "design and development of data visualisations and infographics"
-    img = "images/img_2.jpg"
+    img = "images/moe.jpg"
 
   [[params.work.item]]
     title = "LINZ"
     subtitle = "real-time operational dashboard requirements"
-    img = "images/img_3.jpg"
+    img = "images/linz.jpg"
 
   [[params.work.item]]
     title = "Superu"
     subtitle = "consultancy and design of visualisations for research publications "
-    img = "images/img_2.jpg"
+    img = "images/superu.jpg"
 
   [[params.work.item]]
     title = "Sankey Plugin"
@@ -108,23 +126,7 @@ theme = "hugo-icon"
   [[params.work.item]]
     title = "Redvespa"
     subtitle = "design and implementation of business intelligence reporting"
-    img = "images/img_4.jpg"
-
-# Team section
-[params.team]
-  enable = true
-  title = "Nice to meet you"
-
-  [[params.team.item]]
-    description = "I live and work in Christchurch, New Zealand. Originally from the UK, I am a business analyst with a particular passion for presenting data and complex information. I have over 10 years experience working in IT and government, and enjoy the challenge of analysing and presenting the complex environments in which we work. I work with Redvespa - please contact them if you require business analysis services, or would like to see how I may help your business with visualising your data."
-    img = "images/person1.jpg"
-    github = "https://www.github.com/tomshanley"
-    twitter = "https://www.twitter.com/tomshanleynz"
-    linkedin = "#"
-    pinterest = "https://nz.pinterest.com/tomshanley/data-visualisation/"
-
-
-
+    img = "images/redvespa.png"
 
 # Contact section
 [params.contact]
@@ -141,7 +143,7 @@ theme = "hugo-icon"
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
 [params.footer]
   enable = true
-  note = "<p><small>This website is built using Netlify and Hugo <br> The website uses the Free HTML5 Hugo Template &copy; 2016 All Rights Reserved <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> + Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
+  note = "<p><small>This website is built using <a href='https://www.netlify.com/'>Netlify</a> and <a href='https://gohugo.io/'>Hugo</a> <br> The website uses the Free HTML5 Hugo Template &copy; 2016 All Rights Reserved <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> + Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
   github = "https://www.github.com/tomshanley"
   twitter = "https://www.twitter.com/tomshanleynz"
   linkedin = "#"

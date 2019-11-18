@@ -10,7 +10,7 @@ body {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.8;
-  color: #949494;
+  /*color: #949494;*/
 }
 body.fh5co-overflow {
   overflow-x: hidden;
@@ -716,6 +716,11 @@ p {
   border-radius: 5px;
   background: #fff;
 }
+#fh5co-team .person p {
+  
+  text-align: left;
+  
+}
 #fh5co-team .person img {
   width: 190px;
   margin: 0 auto 30px auto;
@@ -768,7 +773,7 @@ p {
   position: relative;
   width: 25%;
   z-index: 2;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
   height: 300px;
@@ -857,11 +862,11 @@ p {
   bottom: -10px;
 }
 #fh5co-gallery .fh5co-item:hover, #fh5co-gallery .fh5co-item:focus, #fh5co-gallery .fh5co-item:active {
-  background-size: cover;
+  background-size: contain;
   text-decoration: none;
 }
 #fh5co-gallery .fh5co-item:hover .fh5co-overlay, #fh5co-gallery .fh5co-item:focus .fh5co-overlay, #fh5co-gallery .fh5co-item:active .fh5co-overlay {
-  opacity: .8;
+  opacity: 1;
   visibility: visible;
 }
 #fh5co-gallery .fh5co-item:hover .fh5co-copy-inner h2, #fh5co-gallery .fh5co-item:hover .fh5co-copy-inner h3, #fh5co-gallery .fh5co-item:focus .fh5co-copy-inner h2, #fh5co-gallery .fh5co-item:focus .fh5co-copy-inner h3, #fh5co-gallery .fh5co-item:active .fh5co-copy-inner h2, #fh5co-gallery .fh5co-item:active .fh5co-copy-inner h3 {
