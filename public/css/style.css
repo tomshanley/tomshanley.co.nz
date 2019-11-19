@@ -621,14 +621,14 @@ p {
 }
 #fh5co-services .service .icon i {
   font-size: 40px;
-  color: #57D131;
+  color: #b02224;
 }
 #fh5co-services .service h3 {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
-  color: #368f95;
+  color: #b02224;
 }
 #fh5co-services .service:hover, #fh5co-services .service:focus {
   border: 1px solid #e6e6e6;
@@ -1189,6 +1189,10 @@ p {
 	display: flex;
 	flex-wrap: wrap;
     }
+}
+
+.highlight {
+  background-color: #FFF;
 }
 
 /* .equal { */

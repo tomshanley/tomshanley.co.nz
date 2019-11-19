@@ -12,7 +12,7 @@ theme = "hugo-icon"
 # Hero section (from here on is for icon theme)
 [params.hero]
   img = "images/hero_bg.png"
-  title = "I &hearts; data visualisation"
+  title = "I <span style='color:#b02224'>&hearts;</span> data visualisation"
   description = "My name is Tom Shanley. I can help you use your data to explore, understand and explain"
 
 # Navigation section
