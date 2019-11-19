@@ -12,7 +12,7 @@ theme = "hugo-icon"
 # Hero section (from here on is for icon theme)
 [params.hero]
   img = "images/hero_bg.png"
-  title = "I &hearts; data visualistion"
+  title = "I &hearts; data visualisation"
   description = "My name is Tom Shanley. I can help you use your data to explore, understand and explain"
 
 # Navigation section
@@ -76,7 +76,7 @@ theme = "hugo-icon"
 
   [[params.team.item]]
     description = "I live and work in Christchurch, New Zealand. Originally from the UK, I am a business analyst with a particular passion for presenting data and complex information. I have over 10 years experience working in IT and government, and enjoy the challenge of analysing and presenting the complex environments in which we work. I work with [Redvespa](https://www.redvespa.com) - please contact them if you require business analysis services, or would like to see how I may help your business with visualising your data."
-    img = "images/person1.jpg"
+    img = "images/tom-shanley.jpg"
     github = "https://www.github.com/tomshanley"
     twitter = "https://www.twitter.com/tomshanleynz"
     linkedin = "#"
@@ -85,7 +85,7 @@ theme = "hugo-icon"
 
 # Work section
 [params.work]
-  enable = true
+  enable = false
   title = "Some of my previous clients"
 
   [[params.work.item]]
