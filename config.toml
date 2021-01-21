@@ -13,7 +13,7 @@ theme = "hugo-icon"
 [params.hero]
   img = "images/hero_bg.png"
   title = "I <span style='color:#b02224'>&hearts;</span> data visualisation"
-  description = "My name is Tom Shanley. I can help you use your data to explore, understand and explain"
+  description = "Hi, my name is Tom Shanley. I like to make visualisation to explain, explore and delight."
 
 # Navigation section
 [params.nav]
@@ -28,44 +28,6 @@ theme = "hugo-icon"
 # Mission section
 [params.mission]
   enable = false
-
-# Services section
-[params.services]
-  enable = true
-  video = false
-  title = "What I can do for you"
-
-  [[params.services.item]]
-    icon = "icon-comments-o"
-    title = "Consult"
-    description = "Work with your team to understand your goals, data and analysis"
-
-  [[params.services.item]]
-    icon = "icon-eye"
-    title = "Review"
-    description = "Review your existing data visualisations, recommend improvements and steps to achievin"
-
-  [[params.services.item]]
-    icon = "icon-pencil"
-    title = "Design"
-    description = "Design specifications and solutions specfic to your tools and branding guidelines"
-
-  [[params.services.item]]
-    icon = "icon-bag"
-    title = "Build"
-    description = "Develop and deliver the final products for print, analytical tools and web"
-
-    [[params.services.item]]
-    icon = "icon-anchor"
-    title = "Embed"
-    description = "Develop the ongoing processes for maintaining and reusing the visualisations, from data gathering through to presentation"
-    
-  [[params.services.item]]
-    icon = "icon-stethoscope"
-    title = "Business analysis"
-    description = "Data visualisations to support your business analysis and project"
-
-  
 
 
 
