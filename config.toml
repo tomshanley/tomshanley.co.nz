@@ -47,7 +47,7 @@ theme = "hugo-icon"
 
 # Work section
 [params.work]
-  enable = true
+  enable = false
   title = "Some of my previous clients"
 
   [[params.work.item]]
