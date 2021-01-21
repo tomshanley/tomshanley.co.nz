@@ -41,13 +41,13 @@ theme = "hugo-icon"
     img = "images/tom-shanley.jpg"
     github = "https://www.github.com/tomshanley"
     twitter = "https://www.twitter.com/tomshanleynz"
-    linkedin = "#"
+    linkedin = "https://www.linkedin.com/in/tshanley/"
     pinterest = "https://nz.pinterest.com/tomshanley/data-visualisation/"
 
 
 # Work section
 [params.work]
-  enable = false
+  enable = true
   title = "Some of my previous clients"
 
   [[params.work.item]]
