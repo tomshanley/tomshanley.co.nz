@@ -1,7 +1,7 @@
 baseURL       = "https://www.tomshanley.co.nz/"
 languageCode  = "en-us"
 title         = "Tom Shanley | Data Viz + Business Analysis"
-theme         = "roxo"
+theme         = "roxo-tom"
 summarylength = 25
 
 [markup.goldmark.renderer] 
