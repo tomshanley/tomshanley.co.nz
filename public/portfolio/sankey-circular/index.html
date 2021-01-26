@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8" />
+  <title>Sankey charts with circular links</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  
+  <meta name="author" content="StaticMania">
+  
+  <meta name="generator" content="Hugo 0.80.0" />
+
+  <!-- Bootstrap -->
+  
+  <link rel="stylesheet" href="https://www.tomshanley.co.nz/css/bootstrap.min.css" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://www.tomshanley.co.nz/font-awesome/css/font-awesome.min.css" />
+  <!-- Main Stylesheets -->
+  
+  <link href="https://www.tomshanley.co.nz/scss/style.min.css" rel="stylesheet" />
+
+  
+  <link rel="shortcut icon" href="https://www.tomshanley.co.nz/images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="https://www.tomshanley.co.nz/images/favicon.ico" type="image/x-icon" />
+</head><body><nav class="navbar navbar-expand-lg site-navigation">
+  <div class="container">
+    <a class="navbar-brand" href="https://www.tomshanley.co.nz/">
+      <img src="https://www.tomshanley.co.nz/images/logo.png" alt="logo" />
+    </a>
+    <button
+      class="navbar-toggler collapsed"
+      type="button"
+      data-toggle="collapse"
+      data-target="#sitenavbar"
+    >
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="sitenavbar">
+      <ul class="navbar-nav ml-auto main-nav">
+         
+         
+         
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.tomshanley.co.nz/portfolio"
+              >Portfolio</a
+            >
+          </li>
+           
+         
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.tomshanley.co.nz/about"
+              >About</a
+            >
+          </li>
+           
+         
+          
+          <li class="nav-item">
+            <a
+              class="nav-link btn btn-sm btn-primary btn-sm-rounded"
+              href="https://www.tomshanley.co.nz/"
+            >
+              <span class="btn-area">
+                <span data-text="Home">
+                  Home
+                </span>
+              </span>
+            </a>
+          </li>
+           
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<main>
+
+<section class="site-project-single-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="site-project-single">
+          <h1>
+            Sankey charts with circular links
+          </h1>
+          <div class="site-project-single-description">
+            <p>I&rsquo;ve been developing improvements to the <a href="https://github.com/d3/d3-sankey">D3 sankey library</a>, so that it can handle circular links. Circular links are really common when analysing exceptions to business processes or how people navigate around websites and apps. The current D3 sankey library only allows linking one direction, and does not work if a link is addeded which creates a loop in the network.</p>
+<p>My <a href="https://github.com/tomshanley/d3-sankey-circular">version of the library</a> allows for circular links, and in addition, attempts to draw those links to avoid overlaps. This version has since been used by many companies looking to analyse their complex data and networks, including Netflix and University of California, Berkeley. Also, the <a href="https://plotly.com/javascript/">Plotly JS</a> incorporated my sankey library into their base application.</p>
+<p>Since its release I have been investigating improvements to the layout, including the handling of graphs with multiple long links, stabilising the layout when new nodes or links are added, and allowing users to dictate the order in which the nodes are drawn on screen.</p>
+<p>Trying to optimise the various functions has been hard, as the inner-workings are often opaque as to the layout they return at every stage of the process.</p>
+<p>Prototypes of these changes are demonstrated in the following Observable notebooks, along with a description of how the inner workings of layout algorithm works</p>
+<ul>
+<li><a href="https://observablehq.com/@tomshanley/sankey-circular-deconstructed">https://observablehq.com/@tomshanley/sankey-circular-deconstructed</a></li>
+<li><a href="https://observablehq.com/@tomshanley/sankey-circular-deconstructed-part-2-manual-scaling">https://observablehq.com/@tomshanley/sankey-circular-deconstructed-part-2-manual-scaling</a></li>
+</ul>
+<p>Have a play with the parameters to see how it affects the final chart:</p>
+<iframe width="100%" height="1085" frameborder="0"
+  src="https://observablehq.com/embed/@tomshanley/sankey-circular-deconstructed-part-2-manual-scaling?cell=viewof+chooseData&cell=finalGraph&cell=viewof+sankeyParameters&cell=viewof+virtualLinkType"></iframe>
+
+          </div>
+          
+          
+          <div class="site-project-single-action">
+            <a href="https://www.tomshanley.co.nz/portfolio/d3-spiral/">
+              <span class="link-area">
+                <span data-text="Next Project">
+                  Next Project
+                </span>
+              </span>
+              <img src="https://www.tomshanley.co.nz/images/to-top.svg" alt="next project">
+            </a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  
+
+
+
+        </main><footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="site-footer-logo"><a href="https://www.tomshanley.co.nz/"><img src="https://www.tomshanley.co.nz/images/logo-footer.png" alt="logo-footer"></a></div>
+      </div>
+      
+      
+      <div class="col-lg-2 col-md-6">
+        <div class="site-footer-widget">
+          <h5 class="site-footer-widget-title">Sitemap:</h5>
+          <ul class="site-footer-widget-links">
+            
+            <li><a href="https://www.tomshanley.co.nz/about">About me</a></li>
+            
+            <li><a href="https://www.tomshanley.co.nz/portfolio">Portfolio</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      
+      
+      <div class="col-lg-2 col-md-6">
+        <div class="site-footer-widget">
+          <h5 class="site-footer-widget-title">Social Media:</h5>
+          <ul class="site-footer-widget-links">
+            
+              <li><a href="https://twitter.com/tomshanleynz">Twitter</a></li>
+            
+              <li><a href="https://www.github.com/tomshanley">Github</a></li>
+            
+              <li><a href="https://observablehq.com/@tomshanley">Observable</a></li>
+            
+              <li><a href="https://www.linkedin.com/in/tshanley/">Linkedin</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      
+      
+      <div class="col-lg-3 col-md-6">
+        <div class="site-footer-widget">
+          <h5 class="site-footer-widget-title">We help people:</h5>
+          <p class="site-footer-widget-description">
+            to better understand <br>and present their data,<br>and have some fun along the way
+          </p>
+        </div>
+      </div>
+      
+      <div class="col-lg-2 col-12">
+        <a href="#top" class="site-footer-widget-top">
+          <img src="https://www.tomshanley.co.nz/images/to-top.svg" alt="back-to-top">
+          <p>
+            I want to 
+            <br>
+            visit again
+          </p>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://www.tomshanley.co.nz/js/formhandler.min.js"></script>
+
+<script src="https://www.tomshanley.co.nz/js/vendor.min.js"></script>
+
+<script src="https://www.tomshanley.co.nz/js/script.min.js"></script></body>
+</html>

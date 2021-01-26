@@ -1,113 +1,122 @@
-# Main config file for icon theme.
-baseURL = "https://www.tomshanley.co.nz/"
-languageCode = "en-nz"
-title = "Tom Shanley Data Visualisation + Business Analysis @ Christchurch NZ"
-theme = "hugo-icon"
+baseURL       = "https://www.tomshanley.co.nz/"
+languageCode  = "en-us"
+title         = "Tom Shanley | Data Viz + Business Analysis"
+theme         = "roxo-hugo"
+summarylength = 25
 
-# Metadata
+[markup.goldmark.renderer] 
+  unsafe= true
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Portfolio"
+    url     = "portfolio"
+    weight  = 1
+  [[menu.nav]]
+    name    = "About"
+    url     = "about"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Home"
+    url     = ""
+    weight  = 3
+  #[[menu.nav]]
+  #  name    = "Blog"
+  #  url     = "blog"
+  #  weight  = 4
+  #[[menu.nav]]
+  #  name    = "Get in touch"
+  #  url     = "contact"
+  #  weight  = 5
+
+# Site Params
 [params]
-  author = "Tom Shanley"
-  description = "Data visualisation consultant and business analyst - Christchurch, New Zealand"
-
-# Hero section (from here on is for icon theme)
-[params.hero]
-  img = "images/hero_bg.png"
-  title = "I <span style='color:#b02224'>&hearts;</span> data visualisation"
-  description = "Hi, my name is Tom Shanley. I like to make visualisations, charts and maps to explain, explore and delight."
-
-# Navigation section
-[params.nav]
-  mission = "Our Mission"
-  services = "Services"
-  work = "Previous clients"
-  team = "About"
-  contact = "Get In Touch"
-  # Include logo instead if HOME:
-  # logo = "path/to/logo"
-
-# Mission section
-[params.mission]
-  enable = false
-
-
-
-# Team section
-[params.team]
-  enable = true
-  title = "Nice to meet you"
-
-  [[params.team.item]]
-    description = "I live and work in Christchurch, New Zealand. Originally from the UK, I am a business analyst with a particular passion for presenting data and complex information. I have over 10 years experience working in IT and government, and enjoy the challenge of analysing and presenting the complex environments in which we work. I work with [Redvespa](https://www.redvespa.com) - please contact them if you require business analysis services, or would like to see how I may help your business with visualising your data."
-    img = "images/tom-shanley.jpg"
-    github = "https://www.github.com/tomshanley"
-    twitter = "https://www.twitter.com/tomshanleynz"
-    linkedin = "https://www.linkedin.com/in/tshanley/"
-    pinterest = "https://nz.pinterest.com/tomshanley/data-visualisation/"
-
-
-# Work section
-[params.work]
-  enable = false
-  title = "Some of my previous clients"
-
-  [[params.work.item]]
-    title = "Department of Internal Affairs"
-    subtitle = "interactive network visualisation of government services, agencies and customer life events"
-    img = "images/dia.jpg"
-
-  [[params.work.item]]
-    title = "Social Investment Agency"
-    subtitle = "design and development of print and online interactive visualisations"
-    img = "images/sia.jpg"
-
-  [[params.work.item]]
-    title = "Ministry of Social Development"
-    subtitle = " design and development of monthly reporting dashboards"
-    img = "images/msd.jpg"
-
-  [[params.work.item]]
-    title = "Ministry of Education"
-    subtitle = "design and development of data visualisations and infographics"
-    img = "images/moe.jpg"
-
-  [[params.work.item]]
-    title = "LINZ"
-    subtitle = "real-time operational dashboard requirements"
-    img = "images/linz.jpg"
-
-  [[params.work.item]]
-    title = "Superu"
-    subtitle = "consultancy and design of visualisations for research publications "
-    img = "images/superu.jpg"
-
-  [[params.work.item]]
-    title = "Sankey Plugin"
-    subtitle = "development of a D3 plugin to visualisation circular directional networks"
-    img = "images/img_3.jpg"
-
-  [[params.work.item]]
-    title = "Redvespa"
-    subtitle = "design and implementation of business intelligence reporting"
-    img = "images/redvespa.png"
-
-# Contact section
-[params.contact]
-  enable = false
-  title = "Get In Touch"
-  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-  name_placeholder = "Your name"
-  email_placeholder = "Your email"
-  email_disclaimer = "We'll never share your email with anyone else."
-  message_placeholder = "Please enter a message."
-  button_text = "Submit"
-
-# Footer section
-# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
-[params.footer]
-  enable = true
-  note = "<p><small>I built this website using <a href='https://www.netlify.com/'>Netlify</a> and <a href='https://gohugo.io/'>Hugo</a> <br>I use the Free HTML5 Hugo Template &copy; 2016 All Rights Reserved <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> + Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
-  github = "https://www.github.com/tomshanley"
-  twitter = "https://www.twitter.com/tomshanleynz"
-  linkedin = "#"
-  pinterest = "https://nz.pinterest.com/tomshanley/data-visualisation/"
+  logo = "images/logo.png"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "Roxo Hugo themes | Design Agency Template by StaticMania"
+  author = "StaticMania"
+  # Google Analitycs
+  # googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  # formspreeFormUrl  = "https://formspree.io/myykjpje"
   
+  # Navbar Action Button
+  [params.navAction]
+    status  = false
+    name    = "Get in touch"
+    url     = "contact"
+  
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background.png"
+    heading               = "I love data visualisation"
+    #tagline               = "DATA + ANALYSIS"
+    primary_button        = "My work"
+    primary_button_url    = "portfolio"
+    secondary_button      = "About me"
+    secondary_button_url  = "about"
+
+  [params.portfolio]
+    enable    = true
+    title     = "SOME OF MY RECENT WORK"
+    subtitle  = "I like to build visualisations, and the tools for communitiy to do the same..."
+    Paginate = 4
+
+  [params.call_to_action]
+    enable              = false
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "LET’S WORK TOGETHER"
+    primary_button      = "Submit Query"
+    primary_button_url  = "contact"
+    secondary_button    = "Not Convinced"
+    secondary_button_url = "portfolio"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+     # title   = "Contact Info"
+     # address = "713 Elmwood St.<br>Prior Lake, MN 55372"
+     # phone   = "409-896-1444"
+     # email   = "info@roxo.co"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Sitemap:"
+        [[params.footer.sitemap.link]]
+          name = "About me"
+          url  = "about"
+        [[params.footer.sitemap.link]]
+          name = "Portfolio"
+          url  = "portfolio"
+      #  [[params.footer.sitemap.link]]
+      #    name = "Blog"
+      #    url  = "blog"
+      #  [[params.footer.sitemap.link]]
+      #    name = "Contact"
+      #    url  = "contact"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Social Media:"
+        [[params.footer.social.link]]
+          name = "Twitter"
+          url  = "https://twitter.com/tomshanleynz"
+        [[params.footer.social.link]]
+          name = "Github"
+          url  = "https://www.github.com/tomshanley"
+        [[params.footer.social.link]]
+          name = "Observable"
+          url  = "https://observablehq.com/@tomshanley"
+        [[params.footer.social.link]]
+          name = "Linkedin"
+          url  = "https://www.linkedin.com/in/tshanley/"
+       # [[params.footer.social.link]]
+       #   name = "Instagram"
+       #   url  = "#"
+      # Footer Service
+      [params.footer.service]
+        title       = "We help people:"
+        description = "to better understand <br>and present their data,<br>and have some fun along the way"
