@@ -21,7 +21,7 @@ Some of the charts included in the report:
 
 ![Example image](/images/projects/superu-2.jpg)
 
-*Clustered bar chart showing who has a partner or other family member for support?*
+*Clustered bar chart showing who has a partner or other family member for support*
 
 ![Example image](/images/projects/superu-3.jpg)
 
@@ -29,12 +29,12 @@ Some of the charts included in the report:
 
 ![Example image](/images/projects/superu-4.jpg)
 
-In addition to the , I also contributed designs for charts for the [Youth Mental Health Project](https://thehub.swa.govt.nz/assets/Uploads/Youth-Mental-Health-Project-At-a-Glance.pdf) and [Land Use Regulations reports](https://thehub.swa.govt.nz/resources/quantifying-the-impact-of-land-use-regulation-evidence-from-new-zealand-2/).
+In addition to the Families and Whānau Status Report, I also contributed designs for charts for the [Youth Mental Health Project](https://thehub.swa.govt.nz/assets/Uploads/Youth-Mental-Health-Project-At-a-Glance.pdf) and [Land Use Regulations reports](https://thehub.swa.govt.nz/resources/quantifying-the-impact-of-land-use-regulation-evidence-from-new-zealand-2/).
 
-*Youth Mental Health Project*
+*Example chart from the Youth Mental Health Project*
 
 ![Example image](/images/projects/superu-5.jpg)
 
-*Land Use Regulations reports*
+*Example chart from the Land Use Regulations reports*
 
 ![Example image](/images/projects/superu-6.jpg)
