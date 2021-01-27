@@ -11,4 +11,7 @@ clients_names: ["Social Wellbeing Agency", "Superu (Families Commission)", "Mini
 
 speaking_title: "Talks and workshops"
 speaking_names: ["IIBA Christchurch Meetup September 2017", "European Business Analysis Conference 2015", "IIBA BA Development Day conference 2014", "IIBA Wellington Meetup September 2014"]
+
+credits_title: "Website credits"
+credits: ["Website was built using Netlify, Hugo and a fork of the Roxo theme by Static Mania"]
 ---
