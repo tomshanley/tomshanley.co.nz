@@ -63,7 +63,7 @@ summarylength = 25
 
   [params.portfolio]
     enable    = true
-    title     = "SOME OF MY RECENT WORK"
+    title     = "SOME OF MY PREVIOUS WORK"
     subtitle  = "I like to build visualisations, and the tools for communitiy to do the same..."
     Paginate = 4
 
