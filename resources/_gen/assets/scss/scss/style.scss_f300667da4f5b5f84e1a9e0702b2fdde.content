@@ -442,7 +442,8 @@ textarea.form-control {
   .site-project-single-description {
     margin-bottom: 50px; }
     .site-project-single-description p {
-      margin-bottom: 30px; }
+      margin-bottom: 20px; 
+      margin-top: 30px}
   .site-project-single-action a {
     position: relative;
     font-size: 24px;
