@@ -40,3 +40,5 @@ Examples of the charts and handouts produced:
 The final handouts were presented to the Minister for Education in 2018:
 
 https://www.education.govt.nz/assets/Documents/Ministry/Information-releases/Ministerial/PICI-parents-Market-Research-key-findings.pdf
+
+This project was undertaken while I was employed at [Redvepsa Consultants Ltd](https://www.redvespa.com/).

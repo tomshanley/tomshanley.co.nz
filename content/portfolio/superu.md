@@ -13,6 +13,7 @@ I developed charts that helped the analysts understand their data better, and th
 
 Some of the charts included in the report:
 
+
 *Bubble heat map showing the Prevalence of domain disadvantage for families experiencing multiple disadvantages*
 
 ![Example image](/images/projects/superu-1.jpg)

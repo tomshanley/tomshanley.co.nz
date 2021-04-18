@@ -3,12 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.tomshanley.co.nz/portfolio/moe/</loc>
-    <lastmod>2021-03-25T15:56:43+06:00</lastmod>
+    <loc>https://www.tomshanley.co.nz/</loc>
+    <lastmod>2021-04-15T15:56:43+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.tomshanley.co.nz/</loc>
+    <loc>https://www.tomshanley.co.nz/portfolio/sense-gwrc/</loc>
+    <lastmod>2021-04-15T15:56:43+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tomshanley.co.nz/portfolio/moe/</loc>
     <lastmod>2021-03-25T15:56:43+06:00</lastmod>
   </url>
   
@@ -75,6 +80,11 @@
   <url>
     <loc>https://www.tomshanley.co.nz/about/</loc>
     <lastmod>2018-07-12T18:19:33+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tomshanley.co.nz/portfolio/dia-service-network/</loc>
+    <lastmod>2018-04-15T15:56:43+06:00</lastmod>
   </url>
   
   <url>
