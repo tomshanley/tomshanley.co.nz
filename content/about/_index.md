@@ -11,7 +11,7 @@ tools_title: "Tools"
 tools_sectors: ["JavaScript", "D3.js", "ChartJS", "Mapbox", "Highcharts", "Tableau", "R", "Kumu", "Sankey diagrams"]
 
 clients_title: "Previous clients"
-clients_names: ["Social Wellbeing Agency", "Superu (Families Commission)", "Ministry of Education", "Department of Internal Affairs", "Ministry of Social Development", "Land Information New Zealand"]
+clients_names: ["Social Wellbeing Agency", "Superu (Families Commission)", "Ministry of Education", "Department of Internal Affairs", "Ministry of Social Development", "Land Information New Zealand", "Sense Partners"]
 
 speaking_title: "Talks and workshops"
 speaking_names: ["IIBA Christchurch Meetup September 2017", "European Business Analysis Conference 2015", "IIBA BA Development Day conference 2014", "IIBA Wellington Meetup September 2014"]
