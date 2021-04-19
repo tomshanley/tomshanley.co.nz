@@ -630,8 +630,7 @@ textarea.form-control {
   background-color: #F7F9FF; }
   @media (max-width: 575px) {
     .site-about-header {
-      padding-top: 60px;
-      text-align: center; } }
+      padding-top: 60px; } }
 
 .site-about-wrapper {
   display: flex;
