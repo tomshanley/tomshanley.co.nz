@@ -80,8 +80,8 @@ summarylength = 25
   [params.footer]
     # Footer Contact Info
     [params.footer.contactInfo]
-     title   = "Contact Info:"
-     email   = "tomshanleydataviz@gmail.com"
+     # title   = "Contact Info:"
+     # email   = "tomshanleydataviz@gmail.com"
      # address = "713 Elmwood St.<br>Prior Lake, MN 55372"
      # phone   = "409-896-1444"
      
@@ -94,6 +94,9 @@ summarylength = 25
         [[params.footer.sitemap.link]]
           name = "Portfolio"
           url  = "portfolio"
+        [[params.footer.sitemap.link]]
+          name = "Contact"
+          url  = "contact"
       #  [[params.footer.sitemap.link]]
       #    name = "Blog"
       #    url  = "blog"
