@@ -110,7 +110,7 @@ summarylength = 25
           name = "Twitter"
           url  = "https://twitter.com/tomshanleynz"
         [[params.footer.social.link]]
-          name = "Github"
+          name = "GitHub"
           url  = "https://www.github.com/tomshanley"
         [[params.footer.social.link]]
           name = "Observable"
