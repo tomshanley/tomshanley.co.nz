@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>I build &lt;span&gt;visualisations&lt;/span&gt; and &lt;span&gt;tools&lt;/span&gt; to help you understand, explore and communicate your &lt;span&gt;data&lt;/span&gt; on Data Viz &#43; Business Analysis</title>
+    <link>https://www.tomshanley.co.nz/services/</link>
+    <description>Recent content in I build &lt;span&gt;visualisations&lt;/span&gt; and &lt;span&gt;tools&lt;/span&gt; to help you understand, explore and communicate your &lt;span&gt;data&lt;/span&gt; on Data Viz &#43; Business Analysis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Dec 2019 16:48:28 +0600</lastBuildDate><atom:link href="https://www.tomshanley.co.nz/services/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Print-ready reports and handouts</title>
+      <link>https://www.tomshanley.co.nz/services/print/</link>
+      <pubDate>Mon, 15 Apr 2013 15:56:43 +0600</pubDate>
+      
+      <guid>https://www.tomshanley.co.nz/services/print/</guid>
+      <description>I make print-ready visualistions, for your annual reports, posters or handouts.
+I can work with your company&amp;rsquo;s branding, style guides and template, and produce compelling and informative visualisations to strengthen your messages and insights.</description>
+    </item>
+    
+    <item>
+      <title>Dashboards</title>
+      <link>https://www.tomshanley.co.nz/services/dashboards/</link>
+      <pubDate>Wed, 15 Jun 2011 15:56:43 +0600</pubDate>
+      
+      <guid>https://www.tomshanley.co.nz/services/dashboards/</guid>
+      <description>I make dashboards, using the applications you already use within your company, such as Tableau, Qlik or Power BI.
+I can take you past the system defaults and apply best practice to how your charts are designed so that your audiences can get the insights they need quickly and correctly.</description>
+    </item>
+    
+    <item>
+      <title>Interactive online visualisations</title>
+      <link>https://www.tomshanley.co.nz/services/interactive/</link>
+      <pubDate>Sun, 15 May 2011 15:56:43 +0600</pubDate>
+      
+      <guid>https://www.tomshanley.co.nz/services/interactive/</guid>
+      <description>I make online visualisations and maps, so that your customers can interact and play with your data and analysis.
+The visualisations I build are web-standards based, and meet accessibility and responsive needs.</description>
+    </item>
+    
+    <item>
+      <title>Advice and training</title>
+      <link>https://www.tomshanley.co.nz/services/advice/</link>
+      <pubDate>Sat, 15 Jan 2011 15:56:43 +0600</pubDate>
+      
+      <guid>https://www.tomshanley.co.nz/services/advice/</guid>
+      <description>I can help your team improve the data presentation skills, either within their existing applications or learning more wider data visualisation best practice and theory.</description>
+    </item>
+    
+    <item>
+      <title>Business and process analysis</title>
+      <link>https://www.tomshanley.co.nz/services/analysis/</link>
+      <pubDate>Sat, 15 Jan 2011 15:56:43 +0600</pubDate>
+      
+      <guid>https://www.tomshanley.co.nz/services/analysis/</guid>
+      <description>I can apply my wealth of buiness analysis experience to your data practices. I can work with your staff and customers to identify requirements and improvements to your data processes and systems.</description>
+    </item>
+    
+    <item>
+      <title>Things I don&#39;t do...</title>
+      <link>https://www.tomshanley.co.nz/services/dont-do/</link>
+      <pubDate>Wed, 15 Apr 2009 15:56:43 +0600</pubDate>
+      
+      <guid>https://www.tomshanley.co.nz/services/dont-do/</guid>
+      <description>To save your time, these are things I don&amp;rsquo;t do:
+ Data science or in-depth statistical analysis. However I understand the field, and can work with your data scientist and statisticians to make their insights more easily accessibile to different audiences.</description>
+    </item>
+    
+  </channel>
+</rss>

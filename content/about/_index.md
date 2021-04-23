@@ -1,4 +1,5 @@
 ---
+shortTitle: "About"
 title: "About me"
 date: 2018-07-12T18:19:33+06:00
 heading : "I'M A BUSINESS ANALYST, WITH A FLAIR AND PASSION FOR DATA VISUALISATION."
@@ -6,9 +7,6 @@ description : "I live and work in Christchurch, New Zealand. Originally from the
 
 expertise_title: "Expertise"
 expertise_sectors: ["Data visualisation", "Infographics", "Dashboards", "Online interactives", "Print-ready handouts and posters", "Information Design", "Business analysis", "Business case and strategy", "Business process improvements", "Data analysis"]
-
-tools_title: "Tools"
-tools_sectors: ["JavaScript", "D3.js", "ChartJS", "Mapbox", "Highcharts", "Tableau", "R", "Kumu", "Sankey diagrams"]
 
 clients_title: "Previous clients"
 clients_names: ["Social Wellbeing Agency", "Superu (Families Commission)", "Ministry of Education", "Department of Internal Affairs", "Ministry of Social Development", "Land Information New Zealand", "Sense Partners"]

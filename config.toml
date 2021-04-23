@@ -1,6 +1,6 @@
 baseURL       = "https://www.tomshanley.co.nz/"
 languageCode  = "en-us"
-title         = "Tom Shanley | Data Viz + Business Analysis"
+title         = "Data Viz + Business Analysis"
 theme         = "roxo-tom"
 summarylength = 25
 
@@ -15,22 +15,21 @@ summarylength = 25
     url     = ""
     weight  = 1
   [[menu.nav]]
+    name    = "Services"
+    url     = "services"
+    weight  = 2
+  [[menu.nav]]
     name    = "Portfolio"
     url     = "portfolio"
-    weight  = 2
+    weight  = 3
   [[menu.nav]]
     name    = "About"
     url     = "about"
-    weight  = 3
-  
-  #[[menu.nav]]
-  #  name    = "Blog"
-  #  url     = "blog"
-  #  weight  = 4
+    weight  = 4
   [[menu.nav]]
     name    = "Get in touch"
     url     = "contact"
-    weight  = 4
+    weight  = 5
 
 # Site Params
 [params]
@@ -65,7 +64,7 @@ summarylength = 25
   [params.portfolio]
     enable    = true
     title     = "SOME OF MY PREVIOUS WORK"
-    subtitle  = "I like to build visualisations, and the tools for communitiy to do the same..."
+    subtitle  = "Examples of visualisations I've built for clients or myself"
     Paginate = 4
 
   [params.call_to_action]
@@ -92,17 +91,14 @@ summarylength = 25
           name = "About me"
           url  = "about"
         [[params.footer.sitemap.link]]
+          name = "Services"
+          url  = "services"
+        [[params.footer.sitemap.link]]
           name = "Portfolio"
           url  = "portfolio"
         [[params.footer.sitemap.link]]
           name = "Contact"
           url  = "contact"
-      #  [[params.footer.sitemap.link]]
-      #    name = "Blog"
-      #    url  = "blog"
-      #  [[params.footer.sitemap.link]]
-      #    name = "Contact"
-      #    url  = "contact"
       # Footer Social Media
       [params.footer.social]
         title   = "Find me on:"
@@ -118,9 +114,6 @@ summarylength = 25
         [[params.footer.social.link]]
           name = "Linkedin"
           url  = "https://www.linkedin.com/in/tshanley/"
-       # [[params.footer.social.link]]
-       #   name = "Instagram"
-       #   url  = "#"
       # Footer Service
       [params.footer.service]
         title       = "I can help you:"
