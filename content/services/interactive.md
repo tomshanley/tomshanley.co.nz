@@ -7,7 +7,7 @@ category: ["CLIENT WORK"]
 project_images: ["images/projects/sense-gwrc-5.png"]
 example: "portfolio/moe"
 ---
-I make online visualisations and maps, so that your customers can interact and play with your data and analysis.
+I make online visualisations and maps, so that your customers can interact with and explore your data and analysis.
 
 The visualisations I build are web-standards based, and meet accessibility and responsive needs. 
 
