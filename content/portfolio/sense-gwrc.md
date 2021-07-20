@@ -1,13 +1,13 @@
 ---
-title: "Wellington Region Population Forecast"
-date: 2099-04-15T15:56:43+06:00
+title: "Wellington Region Population Forecasts"
+date: 2021-06-30T15:56:43+06:00
 type: portfolio
 image: "images/projects/sense-gwrc-5.png"
 category: ["CLIENT WORK"]
 project_images: ["images/projects/sense-gwrc-5.png"]
 ---
 
-In 2021 I worked with [Sense Partners](http://www.sense.partners/) who had developed population forecasts for the [Greater Wellington Regional Council](https://www.gw.govt.nz/).
+In 2021 I worked with [Sense Partners](http://www.sense.partners/) who develop population forecasts for the [Greater Wellington Regional Council](https://www.gw.govt.nz/).
 
 I built the [website](http://demographics.sensepartners.nz/) to visualise their forecasts for interested public, community groups, senior council officers and councillors - to access, understand and use key forecast outputs and data.
 
