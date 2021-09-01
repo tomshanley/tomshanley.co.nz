@@ -9,7 +9,7 @@ expertise_title: "Expertise"
 expertise_sectors: ["Data visualisation", "Infographics", "Dashboards", "Online interactives", "Print-ready handouts and posters", "Information Design", "Business analysis", "Business case and strategy", "Business process improvements", "Data analysis"]
 
 clients_title: "Previous clients"
-clients_names: ["Social Wellbeing Agency", "Superu (Families Commission)", "Ministry of Education", "Department of Internal Affairs", "Ministry of Social Development", "Land Information New Zealand", "Sense Partners"]
+clients_names: ["Waka Kotahi (NZTA)", "Social Wellbeing Agency", "Superu (Families Commission)", "Ministry of Education", "Department of Internal Affairs", "Ministry of Social Development", "Land Information New Zealand", "Sense Partners", "Greater Wellington Regional Council", "Redvespa Consultants Ltd", "Litmus Datatech", "Southern Canterbury DHB"]
 
 speaking_title: "Talks and workshops"
 speaking_names: ["IIBA Christchurch Meetup September 2017", "European Business Analysis Conference 2015", "IIBA BA Development Day conference 2014", "IIBA Wellington Meetup September 2014"]
