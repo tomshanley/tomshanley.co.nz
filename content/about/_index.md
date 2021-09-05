@@ -1,6 +1,6 @@
 ---
 shortTitle: "About"
-title: "I'm a <span>business analyst</span>, with a flair and passion for <span>data visualisation</span>."
+title: "I am a <span>data visualisation designer</span> and <span>business analyst</span>, and will bring the best of both worlds to your project."
 date: 2018-07-12T18:19:33+06:00
 heading : "I'M A BUSINESS ANALYST, WITH A FLAIR AND PASSION FOR DATA VISUALISATION."
 description : "I live and work in Christchurch, New Zealand. Originally from the UK, I am a business analyst with a particular passion for presenting data and complex information. I have over 10 years experience working in IT and government, and enjoy the challenge of analysing and presenting the complex environments in which we work. I have experience of delivering online, print and application-based data visualisations and infographics. Along side data visualisation, I can deliver business analysis for all strategic, business-improvement and system transformation projects."
